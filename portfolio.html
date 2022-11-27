@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/portfolio.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet" />
@@ -16,84 +16,104 @@
 	<body>
 		<!-- Header + navigation -->
 		<header>
-			<a href="./index.html" class="logo_main"> <span>WEB</span>STUDIO</a>
+			<a href="./index.html" class="logo_main">WEB<span class="web_title">STUDIO</span></a>
 			<nav>
 				<ul class="navigation">
-					<li><a href="studio">Studio</a></li>
-					<li><a href="./portfolio.html">Portfolio</a></li>
-					<li><a href="contacts">Contacts</a></li>
+					<li><a class="nav_main" href="./index.html">Studio</a></li>
+					<li><a class="nav_main" href="./portfolio.html">Portfolio</a></li>
+					<li><a class="nav_main" href="contacts">Contacts</a></li>
 				</ul>
 			</nav>
-			<ul class="contacts">
-				<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+			<ul>
+				<li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+				<li><a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
 			</ul>
 		</header>
 		<!-- Main content -->
 		<main>
 			<!-- Buttons -->
 			<section>
-				<button class="all" type="button">All</button>
-				<button class="website" type="button">Website</button>
-				<button class="app" type="button">App</button>
-				<button class="design" type="button">Design</button>
-				<button class="marketing" type="button">Marketing</button>
-
+				<h1>Portfolio</h1>
+				<ul>
+					<li><button class="all" type="button">All</button></li>
+					<li><button class="website" type="button">Website</button></li>
+					<li><button class="app" type="button">App</button></li>
+					<li><button class="design" type="button">Design</button></li>
+					<li><button class="marketing" type="button">Marketing</button></li>
+				</ul>
 				<!-- Product Cards 1 -->
-				<ul class="product_cards">
-					<li>
-						<img src="images/banking_app.jpg" alt="Banking App Concept" width="360" />
-						<h3>Banking App Interface Concept</h3>
-						<p>App</p>
+				<ul>
+					<li class="product_cards">
+						<a class="cards_link" href="./index.html">
+							<img src="images/banking_app.jpg" alt="Banking App Concept" width="360" />
+							<h2>Banking App Interface Concept</h2>
+							<p>App</p>
+						</a>
 					</li>
-					<li>
-						<img src="./images/cashless_pay.jpg" alt="Cashless payment" width="360" />
-						<h3>Cashless Payment</h3>
-						<p>Marketing</p>
+					<li class="product_cards">
+						<a class="cards_link" href="">
+							<img src="./images/cashless_pay.jpg" alt="Cashless payment" width="360" />
+							<h2>Cashless Payment</h2>
+							<p>Marketing</p>
+						</a>
 					</li>
-					<li>
-						<img src="./images/meditation_app.jpg" alt="Meditation App" width="360" />
-						<h3>Meditation App</h3>
-						<p>App</p>
+					<li class="product_cards">
+						<a class="cards_link" href="">
+							<img src="./images/meditation_app.jpg" alt="Meditation App" width="360" />
+							<h2>Meditation App</h2>
+							<p>App</p>
+						</a>
 					</li>
-					<li
-						><img src="./images/taxi.jpg" alt="Taxi Service" width="360" />
-						<h3>Taxi Service</h3>
-						<p>Marketing</p>
+					<li class="product_cards">
+						<a class="cards_link" href="">
+							<img src="./images/taxi.jpg" alt="Taxi Service" width="360" />
+							<h2>Taxi Service</h2>
+							<p>Marketing</p>
+						</a>
 					</li>
-					<li>
-						<img src="./images/screen_illustr.jpg" alt="Screen Illustrations" width="360" />
-						<h3>Screen Illustrations</h3>
-						<p>Design</p>
+					<li class="product_cards">
+						<a class="cards_link" href="">
+							<img src="./images/screen_illustr.jpg" alt="Screen Illustrations" width="360" />
+							<h2>Screen Illustrations</h2>
+							<p>Design</p>
+						</a>
 					</li>
-					<li>
-						<img src="./images/online_courses.jpg" alt="Online Courses" width="360" />
-						<h3>Online Courses</h3>
-						<p>Marketing</p>
+					<li class="product_cards">
+						<a class="cards_link" href="">
+							<img src="./images/online_courses.jpg" alt="Online Courses" width="360" />
+							<h2>Online Courses</h2>
+							<p>Marketing</p>
+						</a>
 					</li>
-					<li>
-						<img src="./images/stories_consept.jpg" alt="Instagram Stories Concept" width="360" />
-						<h3>Instagram Stories Consept</h3>
-						<p>Design</p>
+					<li class="product_cards">
+						<a class="cards_link" href="">
+							<img src="./images/stories_consept.jpg" alt="Instagram Stories Concept" width="360" />
+							<h2>Instagram Stories Consept</h2>
+							<p>Design</p>
+						</a>
 					</li>
-					<li>
-						<img src="./images/organic_food.jpg" alt="Organic Food" width="360" />
-						<h3>Organic Food</h3>
-						<p>Web Site</p>
+					<li class="product_cards">
+						<a class="cards_link" href="">
+							<img src="./images/organic_food.jpg" alt="Organic Food" width="360" />
+							<h2>Organic Food</h2>
+							<p>Web Site</p>
+						</a>
 					</li>
-					<li>
-						<img src="./images/fresh_coffee.jpg" alt="Fresh Coffee" width="360" />
-						<h3>Fresh Coffe</h3>
-						<p>Web Site</p>
+					<li class="product_cards">
+						<a class="cards_link" href="">
+							<img src="./images/fresh_coffee.jpg" alt="Fresh Coffee" width="360" />
+							<h2>Fresh Coffe</h2>
+							<p>Web Site</p>
+						</a>
 					</li>
 				</ul>
 			</section>
 		</main>
 		<footer>
-			<a href="./index.html" class="logo_footer"><span>WEB</span>STUDIO</a>
+			<a href="./index.html" class="logo_footer"><span class="first_logo">WEB</span>STUDIO</a>
 			<p class="txt_footer">
-				 Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-				</p>
+				Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+			</p>
 		</footer>
 	</body>
 </html>
