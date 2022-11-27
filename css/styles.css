@@ -211,14 +211,14 @@ footer {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--primaryColorCloud);
-        text-decoration: none
+        text-decoration: none;
 }
 
 .first_logo {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
