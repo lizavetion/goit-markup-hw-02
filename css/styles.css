@@ -263,28 +263,13 @@ button:hover {
     cursor: pointer;
 }
 
-.card_link{
+.cards_link{
     text-decoration: none;
+    color: var(--primaryColorNavyBlue);
 }
 .product_cards{
     background: #FFFFFF;
     border: 0.5px solid var(--primaryColorCloud);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     
-}
-
-
-.product_cards>li>h3 {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--primaryColorNavyBlue);
-}
-
-.product_cards>li>p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primaryColorSlate);
 }
